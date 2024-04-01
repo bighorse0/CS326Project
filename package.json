@@ -18,21 +18,24 @@
   "bugs": "",
   "keywords": [],
   "author": {
-    "name": "",
+    "name": "Team 39",
     "email": "",
-    "url": ""
+    "url": "https://github.com/bighorse0/CS326Project"
   },
   "contributors": [
-
+    "Drew Storey, dstorey@umass.edu, bighorse0",
+    "Arin Garg, aringarg@umass.edu, Arin1511",
+    "Enver Gabriel Amboy, eamboy@umass.edu, enveramboy"
   ],
   "scripts": {
+    "milestone-01": "http-server src/docs/milestone-01 -p 3000 -c-1 -o -s",
     "dev": "",
     "test": ""
   },
-  "dependencies": {
-
-  },
   "devDependencies": {
-
+    "html-validate": "^8.18.1",
+    "validate-html": "html-validate src/**/*.html",
+    "prettier": "prettier src —write",
+    "http-server": "^14.1.1"
   }
 }

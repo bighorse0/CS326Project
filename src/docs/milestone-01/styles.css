@@ -1,1 +1,95 @@
+.collapsible-content {
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #f9f9f9;
+}
 
+
+/* Element Selector Rules */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* ID Selector Rules */
+#vision {
+    background-color: #005A9C;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Class Selector Rules */
+.nav-link {
+    display: inline-block;
+    margin: 0 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #0056b3;
+}
+
+/* Nested-Tag / Sub-Element Selector Rules */
+nav a {
+    padding: 5px 10px;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+/* Pseudo-Class Selector Rule */
+a:focus {
+    outline: 2px solid #005A9C;
+}
+
+/* Additional Styles */
+header, section {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    .nav-link {
+        display: block;
+        margin-bottom: 10px;
+    }
+}

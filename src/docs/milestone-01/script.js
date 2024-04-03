@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', () => {
     const sectionHeaders = document.querySelectorAll('section h2');
 
